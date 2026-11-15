@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="fc-admin-svg" viewBox="0 0 1100 1630" width="1100" height="1630" role="img" aria-labelledby="admin-title admin-desc">
+<title id="admin-title">Administrator workflow — operate the whole system</title><desc id="admin-desc">Sign in securely, review the dashboard, approve or reject student registrations, then choose administrative tasks across People, Finance, Landing Page and System. Maintain backups and migrations, consult How To and Flowchart, review results and sign out.</desc>
+<defs><marker id="admin-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L8 4 L0 8 Z" fill="#64748b"/></marker></defs>
+<style>#fc-admin-svg text{font-family:'Segoe UI',Arial,sans-serif;fill:#172b49}#fc-admin-svg .title{font-size:21px;font-weight:700}#fc-admin-svg .body{font-size:18px;fill:#42546b}#fc-admin-svg .label{font-size:17px;font-weight:700;fill:#52657d;paint-order:stroke;stroke:#fff;stroke-width:7px;stroke-linejoin:round}#fc-admin-svg .phase{font-size:17px;font-weight:700;letter-spacing:1.6px;fill:#566b88}</style>
+<rect width="1100" height="1630" fill="#fff" rx="18"/>
+<path d="M32 32 H1068" stroke="#e2e8f0"/><rect x="32" y="15" width="297" height="30" fill="#fff"/><text x="40" y="37" class="phase">01 / ACCESS &amp; DAILY REVIEW</text>
+<rect x="330" y="60" width="440" height="48" rx="24.0" fill="#ecf8f3" stroke="#9bd2bc" stroke-width="1.7"/>
+<text x="550.0" y="91.0" class="title" text-anchor="middle"><tspan x="550.0" dy="0">Start · administrator sign-in</tspan></text>
+<path d="M550 108 L550 132" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<rect x="260" y="132" width="580" height="88" rx="12" fill="#f0f5ff" stroke="#bfd0ee" stroke-width="1.7"/>
+<text x="550.0" y="158.0" class="title" text-anchor="middle"><tspan x="550.0" dy="0">Verify credentials &amp; complete 2FA if enabled</tspan></text>
+<text x="550.0" y="187.0" class="body" text-anchor="middle"><tspan x="550.0" dy="0">Invalid password / code → correct and retry</tspan><tspan x="550.0" dy="25">If policy requires 2FA, enrol in Profile &amp; Security first</tspan></text>
+<path d="M550 220 L550 245" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<rect x="300" y="245" width="500" height="72" rx="12" fill="#f0f5ff" stroke="#bfd0ee" stroke-width="1.7"/>
+<text x="550.0" y="275.5" class="title" text-anchor="middle"><tspan x="550.0" dy="0">Dashboard</tspan></text>
+<text x="550.0" y="304.5" class="body" text-anchor="middle"><tspan x="550.0" dy="0">Review totals, student activity and pending accounts</tspan></text>
+<path d="M550 317 L550 334" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<path d="M550 334.0 L715.0 386 L550 438.0 L385.0 386 Z" fill="#fff8e8" stroke="#d6b464" stroke-width="1.8"/>
+<text x="550" y="380" class="title" text-anchor="middle"><tspan x="550" dy="0">Pending</tspan><tspan x="550" dy="25">registrations?</tspan></text>
+<path d="M715 386 L815 386" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<text x="766" y="374" class="label" text-anchor="middle"><tspan x="766" dy="0">Yes</tspan></text>
+<rect x="815" y="342" width="255" height="88" rx="12" fill="#fff8e8" stroke="#e5c88b" stroke-width="1.7"/>
+<text x="942.5" y="368.0" class="title" text-anchor="middle"><tspan x="942.5" dy="0">Registrations</tspan></text>
+<text x="942.5" y="397.0" class="body" text-anchor="middle"><tspan x="942.5" dy="0">Review student details</tspan><tspan x="942.5" dy="25">Approve or reject</tspan></text>
+<path d="M943 430 L943 463" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<rect x="805" y="463" width="275" height="104" rx="12" fill="#ecf8f3" stroke="#9bd2bc" stroke-width="1.7"/>
+<text x="942.5" y="484.5" class="title" text-anchor="middle"><tspan x="942.5" dy="0">Notify the student</tspan></text>
+<text x="942.5" y="513.5" class="body" text-anchor="middle"><tspan x="942.5" dy="0">Approved → sign-in enabled</tspan><tspan x="942.5" dy="25">Reject → record reason</tspan><tspan x="942.5" dy="25">No mail? Notify directly</tspan></text>
+<path d="M385 386 L153 386 L153 603 L550 603 L550 625" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<text x="273" y="374" class="label" text-anchor="middle"><tspan x="273" dy="0">No</tspan></text>
+<path d="M943 567 L943 603 L550 603" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<path d="M32 592 H1068" stroke="#e2e8f0"/><rect x="32" y="575" width="561" height="30" fill="#fff"/><text x="40" y="597" class="phase">02 / CHOOSE TASKS AS NEEDED · NOT A FIXED SEQUENCE</text>
+<rect x="350" y="625" width="400" height="53" rx="26.5" fill="#f0f5ff" stroke="#bfd0ee" stroke-width="1.7"/>
+<text x="550.0" y="658.5" class="title" text-anchor="middle"><tspan x="550.0" dy="0">Choose an administration area</tspan></text>
+<path d="M550 678 L550 700 L200 700 L200 730" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<path d="M550 700 L550 730" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<path d="M550 700 L900 700 L900 730" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<rect x="35" y="730" width="330" height="186" rx="12" fill="#f0f5ff" stroke="#bfd0ee" stroke-width="1.7"/>
+<text x="200.0" y="767.5" class="title" text-anchor="middle"><tspan x="200.0" dy="0">PEOPLE</tspan></text>
+<text x="200.0" y="796.5" class="body" text-anchor="middle"><tspan x="200.0" dy="0">User Accounts: manage access</tspan><tspan x="200.0" dy="25">and account status</tspan><tspan x="200.0" dy="25">Student Monitor: review budgets,</tspan><tspan x="200.0" dy="25">behaviour and student drill-downs</tspan><tspan x="200.0" dy="25">Registrations: review / reconsider</tspan></text>
+<rect x="385" y="730" width="330" height="186" rx="12" fill="#f0f5ff" stroke="#bfd0ee" stroke-width="1.7"/>
+<text x="550.0" y="767.5" class="title" text-anchor="middle"><tspan x="550.0" dy="0">FINANCE</tspan></text>
+<text x="550.0" y="796.5" class="body" text-anchor="middle"><tspan x="550.0" dy="0">Categories: organise income</tspan><tspan x="550.0" dy="25">and expense classifications</tspan><tspan x="550.0" dy="25">Financial Report: filter totals</tspan><tspan x="550.0" dy="25">and ledgers; drill down by student</tspan><tspan x="550.0" dy="25">Print / export the filtered results</tspan></text>
+<rect x="735" y="730" width="330" height="186" rx="12" fill="#f0f5ff" stroke="#bfd0ee" stroke-width="1.7"/>
+<text x="900.0" y="767.5" class="title" text-anchor="middle"><tspan x="900.0" dy="0">LANDING PAGE</tspan></text>
+<text x="900.0" y="796.5" class="body" text-anchor="middle"><tspan x="900.0" dy="0">Page Studio: hero, text &amp; buttons</tspan><tspan x="900.0" dy="25">Events · Galleries &amp; images</tspan><tspan x="900.0" dy="25">Videos · Advertisements</tspan><tspan x="900.0" dy="25">Map &amp; Location: address / pin</tspan><tspan x="900.0" dy="25">About Page: description &amp; image</tspan></text>
+<path d="M200 916 L200 948 L550 948 L550 1001" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<path d="M550 916 L550 1001" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<path d="M900 916 L900 948 L550 948 L550 1001" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<path d="M32 977 H1068" stroke="#e2e8f0"/><rect x="32" y="960" width="385" height="30" fill="#fff"/><text x="40" y="982" class="phase">03 / CONFIGURE, PROTECT &amp; MAINTAIN</text>
+<rect x="300" y="1001" width="500" height="54" rx="27.0" fill="#f0f5ff" stroke="#bfd0ee" stroke-width="1.7"/>
+<text x="550.0" y="1035.0" class="title" text-anchor="middle"><tspan x="550.0" dy="0">System · choose the required tool</tspan></text>
+<path d="M550 1055 L550 1075 L200 1075 L200 1100" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<path d="M550 1075 L550 1100" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<path d="M550 1075 L900 1075 L900 1100" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<rect x="35" y="1100" width="330" height="151" rx="12" fill="#f0f5ff" stroke="#bfd0ee" stroke-width="1.7"/>
+<text x="200.0" y="1132.5" class="title" text-anchor="middle"><tspan x="200.0" dy="0">BRAND &amp; PRESENTATION</tspan></text>
+<text x="200.0" y="1161.5" class="body" text-anchor="middle"><tspan x="200.0" dy="0">Company Settings: school info,</tspan><tspan x="200.0" dy="25">logo, currency &amp; security options</tspan><tspan x="200.0" dy="25">Check / repair image delivery</tspan><tspan x="200.0" dy="25">Theme Studio: edit &amp; activate</tspan></text>
+<rect x="385" y="1100" width="330" height="151" rx="12" fill="#f0f5ff" stroke="#bfd0ee" stroke-width="1.7"/>
+<text x="550.0" y="1132.5" class="title" text-anchor="middle"><tspan x="550.0" dy="0">DATA &amp; HOSTING</tspan></text>
+<text x="550.0" y="1161.5" class="body" text-anchor="middle"><tspan x="550.0" dy="0">Database: system check &amp; backups</tspan><tspan x="550.0" dy="25">Configure automatic backups</tspan><tspan x="550.0" dy="25">Back up before restore / updates</tspan><tspan x="550.0" dy="25">Migrations: apply pending changes</tspan></text>
+<rect x="735" y="1100" width="330" height="151" rx="12" fill="#f0f5ff" stroke="#bfd0ee" stroke-width="1.7"/>
+<text x="900.0" y="1132.5" class="title" text-anchor="middle"><tspan x="900.0" dy="0">GUIDANCE &amp; SECURITY</tspan></text>
+<text x="900.0" y="1161.5" class="body" text-anchor="middle"><tspan x="900.0" dy="0">How To: menu guide &amp; glossary</tspan><tspan x="900.0" dy="25">Flowchart: both user journeys</tspan><tspan x="900.0" dy="25">Profile: password &amp; 2FA</tspan><tspan x="900.0" dy="25">Protect credentials and sign out</tspan></text>
+<path d="M200 1251 L200 1280 L550 1280 L550 1305" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<path d="M550 1251 L550 1305" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<path d="M900 1251 L900 1280 L550 1280 L550 1305" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<rect x="280" y="1305" width="540" height="75" rx="12" fill="#ecf8f3" stroke="#9bd2bc" stroke-width="1.7"/>
+<text x="550.0" y="1337.0" class="title" text-anchor="middle"><tspan x="550.0" dy="0">Verify the outcome</tspan></text>
+<text x="550.0" y="1366.0" class="body" text-anchor="middle"><tspan x="550.0" dy="0">Check saved changes, images, reports and backup results</tspan></text>
+<path d="M550 1380 L550 1396" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<path d="M550 1396.0 L705.0 1446 L550 1496.0 L395.0 1446 Z" fill="#fff8e8" stroke="#d6b464" stroke-width="1.8"/>
+<text x="550" y="1452" class="title" text-anchor="middle"><tspan x="550" dy="0">More tasks?</tspan></text>
+<path d="M395 1446 L17 1446 L17 651 L350 651" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<text x="184" y="1431" class="label" text-anchor="middle"><tspan x="184" dy="0">Yes · choose another area</tspan></text>
+<path d="M550 1496 L550 1520" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#admin-arrow)"/>
+<text x="579" y="1517" class="label" text-anchor="middle"><tspan x="579" dy="0">No</tspan></text>
+<rect x="350" y="1520" width="400" height="48" rx="24.0" fill="#ecf8f3" stroke="#9bd2bc" stroke-width="1.7"/>
+<text x="550.0" y="1551.0" class="title" text-anchor="middle"><tspan x="550.0" dy="0">Sign out · end admin session</tspan></text>
+<text x="550" y="1603" class="body" text-anchor="middle"><tspan x="550" dy="0">Student financial records belong to students; administrators monitor and report.</tspan></text>
+</svg>

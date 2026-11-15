@@ -1,0 +1,214 @@
+{
+  "normal": [
+    {
+      "pages": 1,
+      "errors": [],
+      "sourceRows": 1,
+      "visibleRows": 1,
+      "path": "/admin/events?do=print",
+      "pdfPages": 1
+    },
+    {
+      "pages": 1,
+      "errors": [],
+      "sourceRows": 1,
+      "visibleRows": 1,
+      "path": "/admin/galleries?do=print",
+      "pdfPages": 1
+    },
+    {
+      "pages": 1,
+      "errors": [],
+      "sourceRows": 1,
+      "visibleRows": 1,
+      "path": "/admin/videos?do=print",
+      "pdfPages": 1
+    },
+    {
+      "pages": 1,
+      "errors": [],
+      "sourceRows": 1,
+      "visibleRows": 1,
+      "path": "/admin/advertisements?do=print",
+      "pdfPages": 1
+    },
+    {
+      "pages": 1,
+      "errors": [],
+      "sourceRows": 15,
+      "visibleRows": 15,
+      "path": "/admin/categories?do=print",
+      "pdfPages": 1
+    },
+    {
+      "pages": 1,
+      "errors": [],
+      "sourceRows": 2,
+      "visibleRows": 2,
+      "path": "/admin/users?do=print",
+      "pdfPages": 1
+    },
+    {
+      "pages": 1,
+      "errors": [],
+      "sourceRows": 1,
+      "visibleRows": 1,
+      "path": "/admin/registrations?do=print",
+      "pdfPages": 1
+    },
+    {
+      "pages": 1,
+      "errors": [],
+      "sourceRows": 1,
+      "visibleRows": 1,
+      "path": "/admin/monitor?do=print",
+      "pdfPages": 1
+    },
+    {
+      "pages": 1,
+      "errors": [],
+      "sourceRows": 7,
+      "visibleRows": 7,
+      "path": "/admin/reports?do=print",
+      "pdfPages": 1
+    },
+    {
+      "pages": 16,
+      "errors": [],
+      "sourceRows": 179,
+      "visibleRows": 179,
+      "path": "/admin/howto?do=print",
+      "pdfPages": 16
+    },
+    {
+      "pages": 2,
+      "errors": [],
+      "sourceRows": 0,
+      "visibleRows": 0,
+      "path": "/admin/flowchart?do=print",
+      "pdfPages": 2
+    },
+    {
+      "pages": 2,
+      "errors": [],
+      "sourceRows": 17,
+      "visibleRows": 17,
+      "path": "/admin/monitor?student=2&do=print",
+      "pdfPages": 2
+    },
+    {
+      "pages": 1,
+      "errors": [],
+      "sourceRows": 1,
+      "visibleRows": 1,
+      "path": "/user/incomes?do=print",
+      "pdfPages": 1
+    },
+    {
+      "pages": 1,
+      "errors": [],
+      "sourceRows": 6,
+      "visibleRows": 6,
+      "path": "/user/expenses?do=print",
+      "pdfPages": 1
+    },
+    {
+      "pages": 1,
+      "errors": [],
+      "sourceRows": 2,
+      "visibleRows": 2,
+      "path": "/user/budgets?do=print",
+      "pdfPages": 1
+    },
+    {
+      "pages": 2,
+      "errors": [],
+      "sourceRows": 11,
+      "visibleRows": 11,
+      "path": "/user/behavior?do=print",
+      "pdfPages": 2
+    },
+    {
+      "pages": 1,
+      "errors": [],
+      "sourceRows": 7,
+      "visibleRows": 7,
+      "path": "/user/reports?do=print",
+      "pdfPages": 1
+    }
+  ],
+  "long_text_bulk": [
+    {
+      "pages": 10,
+      "errors": [],
+      "sourceRows": 81,
+      "visibleRows": 81,
+      "path": "/admin/events?do=print",
+      "pdfPages": 10
+    },
+    {
+      "pages": 12,
+      "errors": [],
+      "sourceRows": 80,
+      "visibleRows": 80,
+      "path": "/admin/users?do=print",
+      "pdfPages": 12
+    },
+    {
+      "pages": 8,
+      "errors": [],
+      "sourceRows": 39,
+      "visibleRows": 39,
+      "path": "/admin/registrations?do=print",
+      "pdfPages": 8
+    },
+    {
+      "pages": 27,
+      "errors": [],
+      "sourceRows": 79,
+      "visibleRows": 79,
+      "path": "/admin/monitor?do=print",
+      "pdfPages": 27
+    },
+    {
+      "pages": 27,
+      "errors": [],
+      "sourceRows": 187,
+      "visibleRows": 187,
+      "path": "/admin/reports?do=print",
+      "pdfPages": 27
+    },
+    {
+      "pages": 19,
+      "errors": [],
+      "sourceRows": 126,
+      "visibleRows": 126,
+      "path": "/admin/monitor?student=2&do=print",
+      "pdfPages": 19
+    },
+    {
+      "pages": 14,
+      "errors": [],
+      "sourceRows": 91,
+      "visibleRows": 91,
+      "path": "/user/incomes?do=print",
+      "pdfPages": 14
+    },
+    {
+      "pages": 12,
+      "errors": [],
+      "sourceRows": 96,
+      "visibleRows": 96,
+      "path": "/user/expenses?do=print",
+      "pdfPages": 12
+    },
+    {
+      "pages": 3,
+      "errors": [],
+      "sourceRows": 20,
+      "visibleRows": 20,
+      "path": "/user/budgets?do=print",
+      "pdfPages": 3
+    }
+  ]
+}

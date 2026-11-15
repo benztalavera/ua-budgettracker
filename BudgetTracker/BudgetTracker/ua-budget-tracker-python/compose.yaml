@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    env_file: .env
+    environment:
+      APP_ENV: production
+      DATA_DIR: /data
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - budget_data:/data
+    restart: unless-stopped
+volumes:
+  budget_data:

@@ -1,0 +1,39 @@
+/* Shared A4 preview and print engine. The same measured sheets are printed.
+   No CDN, font download, browser scaling or hidden table overflow required. */
+@page{size:A4 portrait;margin:14mm 12mm 16mm}
+@page report-portrait{size:A4 portrait;margin:0}
+@page report-landscape{size:A4 landscape;margin:0}
+*{box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+html,body{margin:0;padding:0}
+body{font-family:"Segoe UI",Arial,Helvetica,sans-serif;color:#17243b;font-size:10pt;line-height:1.4;background:#e4e9f0;-webkit-font-smoothing:antialiased}
+.p-bar{position:sticky;top:0;z-index:30;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px 20px;padding:12px 20px;background:#101e35;color:#fff;box-shadow:0 5px 20px #0f172a26;font:600 13px/1.4 "Segoe UI",Arial,sans-serif}
+.p-bar-title{display:flex;align-items:center;gap:10px;min-width:0}
+.p-bar-title>svg{flex:none}.p-bar-title strong{display:block;font-size:14px}.p-bar-title small{display:block;font-size:11px;font-weight:400;color:#c6d2e3;overflow-wrap:anywhere}
+.p-bar-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.p-btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:10px 14px;border:1px solid #7b899e;border-radius:8px;font:600 13px/1.2 "Segoe UI",Arial,sans-serif;background:transparent;color:#fff;cursor:pointer}.p-btn svg{flex:none}.p-btn:hover{background:#ffffff20}.p-btn-primary{background:#fff;color:#14233c;border-color:#fff}.p-btn-primary:hover{background:#e7effa}
+.p-doc,.p-sheet{width:210mm;margin:22px auto;background:#fff;padding:12mm;box-shadow:0 10px 35px #17243b22;position:relative}
+.p-doc{min-height:297mm}.p-landscape .p-doc,.p-landscape .p-sheet{width:297mm}.p-landscape .p-doc{min-height:210mm}
+.p-head{display:flex;align-items:flex-start;gap:6mm;border-bottom:1.5pt solid #233f68;padding-bottom:4mm;margin-bottom:5mm;break-inside:avoid}
+.p-brand{flex:0 0 16mm}.p-brand img,.p-logo-ph{width:16mm;height:16mm;object-fit:contain;border-radius:2mm}.p-logo-ph{display:flex;align-items:center;justify-content:center;background:#233f68;color:#fff;font-size:15pt;font-weight:800}
+.p-company{flex:1;min-width:0;font-size:9pt;line-height:1.5;overflow-wrap:anywhere}.p-company strong{display:block;font-size:13pt;color:#20395d;line-height:1.25;margin-bottom:1mm}.p-company strong+br{display:none}.p-meta{flex:0 1 48mm;text-align:right;font-size:8pt;color:#586779;line-height:1.6;overflow-wrap:anywhere}
+.p-title{font-size:16pt;font-weight:800;line-height:1.25;margin:0 0 3mm;color:#14233c;overflow-wrap:anywhere;break-after:avoid}
+.p-filters{font-size:8.7pt;line-height:1.5;background:#f0f4fa;border-left:2.5pt solid #31557f;border-radius:0 2mm 2mm 0;padding:2.5mm 3mm;margin:0 0 4mm;overflow-wrap:anywhere;break-inside:avoid}
+/* Fixed layout and normal wrapping prevent long labels, emails, URLs and
+   currency values from widening the physical sheet. Never clip report data. */
+table{width:100%;max-width:100%;table-layout:fixed;border-collapse:collapse;font-size:9pt;margin:0 0 2mm}
+thead{display:table-header-group}tfoot{display:table-row-group}
+th,td{padding:2mm;border:.6pt solid #d3dce8;vertical-align:top;text-align:left;white-space:normal;overflow-wrap:anywhere;word-break:normal;line-height:1.4}
+th{background:#eaf0f9;color:#244368;font-size:8pt;font-weight:700;letter-spacing:.2pt;text-transform:uppercase}td{color:#17243b}tbody tr:nth-child(even) td{background:#f8fafc}tr{break-inside:avoid;page-break-inside:avoid}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:normal;overflow-wrap:anywhere;letter-spacing:0}tfoot td{background:#eaf0f9;font-weight:700;border-top:1.2pt solid #31557f}
+.p-landscape table{font-size:8.7pt}.p-landscape th,.p-landscape td{padding:1.8mm}.p-landscape th{font-size:7.8pt}
+.badge{display:inline-block;max-width:100%;font-size:7.5pt;padding:.5mm 1.2mm;border:.5pt solid #b7c4d7;border-radius:1mm;white-space:normal;overflow-wrap:anywhere;background:#f0f4fa;color:#244368}
+.p-doc img,.p-sheet img{max-width:100%;height:auto}.p-doc td img,.p-sheet td img{width:12mm;height:10mm;object-fit:cover;border-radius:1mm}.p-doc .p-brand img,.p-sheet .p-brand img{height:16mm}
+h3{font-size:11.5pt;color:#233f68;margin:5mm 0 2mm;break-after:avoid}p{margin:0 0 2.5mm}ol,ul{margin:0 0 2mm;padding-left:5.5mm}li{margin-bottom:1mm}a{color:inherit;overflow-wrap:anywhere;text-decoration:none}
+.p-figure{border:.6pt solid #d3dce8;border-radius:2mm;padding:3mm;margin:0 0 2mm;break-inside:avoid}.p-figure svg{width:100%;height:auto;max-height:206mm;display:block}
+.p-foot{margin-top:5mm;border-top:.6pt solid #c8d4e5;padding-top:2.5mm;font-size:7.2pt;color:#5e6c80;display:flex;justify-content:space-between;align-items:flex-start;gap:4mm;overflow-wrap:anywhere}.p-foot>span:first-child{flex:1;min-width:0}.p-page-number{flex:none;white-space:nowrap;color:#31557f;font-variant-numeric:tabular-nums}.p-running,.p-guide{display:none!important}
+/* Deterministic pagination: fixed page size, flexible measured content area,
+   reserved footer. Tables are split by whole rows with repeated headers. */
+.p-sheet{height:297mm;display:flex;flex-direction:column;page:report-portrait}.p-landscape .p-sheet{height:210mm;page:report-landscape}.p-sheet-body{flex:1;min-height:0;display:flow-root}.p-sheet>.p-foot{flex:none;margin-top:4mm;min-height:9mm}.p-continuation{display:flex;justify-content:space-between;gap:5mm;padding-bottom:2.5mm;margin-bottom:3.5mm;border-bottom:1pt solid #31557f;font-size:9pt;color:#31557f}.p-continuation span{font-size:8pt;color:#5e6c80}.p-source{position:absolute!important;left:-100000px!important;top:0!important;margin:0!important;visibility:hidden!important}.p-sheet-oversize{height:auto!important;min-height:297mm}.p-landscape .p-sheet-oversize{min-height:210mm}
+.p-print-warning{max-width:900px;margin:15px auto;padding:12px 18px;border-left:3px solid #c78320;background:#fff6df;color:#694911;font:13px/1.5 Arial,sans-serif}
+@media screen{body{padding-bottom:24px}#p-pages{overflow:auto;padding:0 12px}.p-sheet:first-child{margin-top:22px}.p-sheet:last-child{margin-bottom:0}}
+@media screen and (max-width:820px){.p-bar{padding:10px 12px}.p-btn{font-size:12px;padding:9px 11px}.p-doc{margin:14px 12px}.p-bar-title small{max-width:calc(100vw - 50px)}}
+@media print{html,body{padding:0;margin:0;background:#fff}.p-bar,.no-print-bar,.p-source,.p-print-warning{display:none!important}#p-pages{padding:0;margin:0;overflow:visible}.p-sheet{margin:0!important;box-shadow:none;border-radius:0;break-after:page;page-break-after:always}.p-sheet:last-child{break-after:auto;page-break-after:auto}.p-doc{width:auto!important;min-height:0!important;margin:0;padding:0;box-shadow:none}.p-sheet-oversize{break-inside:auto}a{color:inherit;text-decoration:none}}

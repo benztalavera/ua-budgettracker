@@ -1,0 +1,21 @@
+[Unit]
+Description=University of the Assumption Budget Tracker (Python)
+After=network.target
+[Service]
+User=ua-budget
+Group=ua-budget
+WorkingDirectory=/opt/ua-budget-tracker-python
+EnvironmentFile=/etc/ua-budget-tracker.env
+Environment=APP_ENV=production
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/opt/ua-budget-tracker-python/.venv/bin/gunicorn --bind 127.0.0.1:8000 --workers 2 --threads 4 --timeout 120 --access-logfile - --error-logfile - wsgi:app
+Restart=on-failure
+RestartSec=5
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/ua-budget-tracker
+[Install]
+WantedBy=multi-user.target

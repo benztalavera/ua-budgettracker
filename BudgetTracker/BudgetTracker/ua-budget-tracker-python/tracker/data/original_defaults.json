@@ -1,0 +1,1121 @@
+{
+    "landing": {
+        "hero": {
+            "layout": "text-only",
+            "image": "",
+            "bg": "",
+            "bg_trans": 0,
+            "bg_gradient": "brand",
+            "overlay": 55,
+            "align": "center",
+            "height": "screen",
+            "text_color": "",
+            "anim_image": "none",
+            "anim_bg": "none",
+            "image_style": "rounded",
+            "media_size": "md",
+            "media_scale": 100,
+            "text_align": "",
+            "content_vpos": "middle",
+            "text_vpos": "auto",
+            "text_x": 0,
+            "text_y": 0,
+            "media_align": "auto",
+            "media_vpos": "auto",
+            "media_x": 0,
+            "media_y": 0,
+            "shadow": "soft",
+            "shadow_strength": 100,
+            "shadow_color": "#0f172a",
+            "show_stats": 1,
+            "kicker_show": 1,
+            "kicker_text": "",
+            "kicker_color": "",
+            "kicker_style": "glass",
+            "title_color": "",
+            "title_size": "md",
+            "sub_show": 1,
+            "sub_color": "",
+            "sub_size": "md",
+            "btn1_text": "",
+            "btn1_text_user": "",
+            "btn1_show": 1,
+            "btn1_bg": "",
+            "btn1_fg": "",
+            "btn1_bd": "",
+            "btn2_bg": "",
+            "btn2_fg": "",
+            "btn2_bd": "",
+            "btn3_text": "",
+            "btn3_bg": "",
+            "btn3_fg": "",
+            "btn3_bd": "",
+            "btn3_href": "",
+            "btn2_show": 1,
+            "btn2_text": "Register as a student",
+            "btn3_show": 1,
+            "btn_style": "white",
+            "stats_style": "glass",
+            "stat_events": 1,
+            "stat_galleries": 1,
+            "stat_videos": 1,
+            "stat_students": 1
+        },
+        "events": {
+            "on": 1,
+            "kicker": "What's happening",
+            "title": "University Events",
+            "subtitle": "Dates, venues and everything you need — pinned on the map when a location is set.",
+            "layout": "grid",
+            "cols": 3,
+            "limit": 6,
+            "style": "rounded",
+            "animation": "fade-up",
+            "bg": "plain",
+            "text_color": ""
+        },
+        "galleries": {
+            "on": 1,
+            "kicker": "Campus life",
+            "title": "Photo Galleries",
+            "subtitle": "Albums from university activities — open one to browse every photo.",
+            "layout": "grid",
+            "cols": 3,
+            "limit": 6,
+            "style": "rounded",
+            "animation": "fade-up",
+            "bg": "plain",
+            "text_color": ""
+        },
+        "videos": {
+            "on": 1,
+            "kicker": "Watch",
+            "title": "Videos",
+            "subtitle": "YouTube, TikTok and Facebook clips from the university.",
+            "layout": "grid",
+            "cols": 3,
+            "limit": 6,
+            "style": "rounded",
+            "animation": "fade-up",
+            "bg": "plain",
+            "text_color": ""
+        },
+        "ads": {
+            "on": 1,
+            "kicker": "Announcements",
+            "title": "Advertisements & Announcements",
+            "subtitle": "Enrolment drives, reminders and campus campaigns.",
+            "layout": "grid",
+            "cols": 2,
+            "limit": 4,
+            "style": "rounded",
+            "animation": "fade-up",
+            "bg": "plain",
+            "text_color": ""
+        },
+        "location": {
+            "on": 1,
+            "kicker": "Find us",
+            "title": "University Location",
+            "subtitle": "Search the map or use your current location to get directions to the campus.",
+            "layout": "map-right",
+            "cols": 2,
+            "limit": 1,
+            "style": "rounded",
+            "animation": "fade-up",
+            "bg": "plain",
+            "text_color": ""
+        },
+        "band": {
+            "on": 1,
+            "kicker": "New student?",
+            "title": "Create your budget tracker account",
+            "subtitle": "Register with your student number, grade level and contact details. The school administrator reviews your registration, and once approved you sign in, pick your budget period — daily, weekly or monthly — and set the amount you plan to spend.",
+            "layout": "split",
+            "cols": 2,
+            "limit": 1,
+            "style": "rounded",
+            "animation": "fade-up",
+            "bg": "tinted",
+            "text_color": ""
+        }
+    },
+    "about": {
+        "title": "About the UA Student Budget Tracker",
+        "kicker": "About the system",
+        "one_liner": "A student budgeting system that turns a monthly allowance into a plan you can actually follow.",
+        "lead": "The University of the Assumption Student Budget Tracker is a web system where students plan how much they may spend, record every peso of allowance and every expense, and see — at any moment — how much is left. The office sees the same figures and can step in while there is still time to help.",
+        "body": "Most students do not run out of allowance because they are careless. They run out because nothing measures spending against a plan until the money is already gone.\n\nThis system closes that gap. A student sets a budget for a day, a week, a month or a custom range and says what it covers. After that, every income entry and every expense is recorded in seconds, and the system keeps the running total against the limit. When spending reaches the alert threshold the student is warned on the dashboard, on the budgets list and on the expense page — while there is still time to adjust, not after the fact.\n\nNothing here touches real money. It is a planning and monitoring tool, not a payment system: the student records what happened, and the system does the arithmetic, the alerts and the reports.",
+        "image": "assets-img:about-default.jpg",
+        "image_caption": "Students plan, record and review their allowance with the tracker.",
+        "cta_text": "Register as a student",
+        "cta_link": "register.php",
+        "cta2_text": "Sign in",
+        "cta2_link": "login.php",
+        "show_pillars": 1,
+        "show_diagram": 1,
+        "show_audience": 1,
+        "show_terms": 1,
+        "show_stats": 1,
+        "show_cta": 1,
+        "pillars": [
+            {
+                "title": "Plan",
+                "text": "Set a budget for a daily, weekly, monthly or custom period, choose what it covers, pick the week start if it is weekly, and set the alert threshold."
+            },
+            {
+                "title": "Record",
+                "text": "Log income and expenses as they happen — amount, date, category, payee, notes and an optional photo of the receipt."
+            },
+            {
+                "title": "Monitor",
+                "text": "Each budget shows spent vs limit with a live progress bar and a state: On track, Near limit or Over budget. Alerts appear the moment a threshold is reached."
+            },
+            {
+                "title": "Report",
+                "text": "Filterable ledgers, a behaviour page with a discipline score, and A4-printable or CSV reports for parents, projects and the office."
+            }
+        ],
+        "audience": [
+            {
+                "title": "For students",
+                "text": "A clear remaining balance, an early warning, and proof of where the allowance actually went."
+            },
+            {
+                "title": "For the office",
+                "text": "A worst-first monitor of who is overspending, approval of new registrations, and school-wide totals."
+            },
+            {
+                "title": "For parents & advisers",
+                "text": "Printable statements that show the plan, the spending and the balance in one page."
+            }
+        ],
+        "terms": [
+            {
+                "term": "Budget",
+                "def": "A limit for a period — the amount a student plans to spend, e.g. ₱3,000 for this month."
+            },
+            {
+                "term": "Live window",
+                "def": "The dates a repeating budget is measuring right now (today, this 7-day cycle, or this calendar month)."
+            },
+            {
+                "term": "Alert threshold",
+                "def": "The percentage of a budget at which a warning appears — 80% by default. Passing 100% always warns."
+            },
+            {
+                "term": "On track \/ Near limit \/ Over budget",
+                "def": "The three states the system returns for every live budget, shown as a green, amber or red bar."
+            },
+            {
+                "term": "Discipline score",
+                "def": "A 0–100 indicator of how well a student is staying inside their own budgets."
+            },
+            {
+                "term": "Balance",
+                "def": "All income minus all expenses, regardless of budgets — how much money is left overall."
+            }
+        ],
+        "updated_at": ""
+    },
+    "themes": [
+        [
+            "UA Navy & Gold",
+            "ua-navy-gold",
+            {
+                "bg": "#f3f6fd",
+                "surface": "#ffffff",
+                "surface_2": "#e7eefb",
+                "text": "#16224a",
+                "muted": "#5c6b8d",
+                "primary": "#14357e",
+                "primary_dark": "#0d2456",
+                "accent": "#f2c200",
+                "border": "#dbe4f5",
+                "gradient": "linear-gradient(135deg,#14357e,#2f6fd0)",
+                "font": "'Merriweather',Georgia,serif",
+                "radius": "12px"
+            }
+        ],
+        [
+            "UA Sky & Sun",
+            "ua-sky-sun",
+            {
+                "bg": "#f1f8ff",
+                "surface": "#ffffff",
+                "surface_2": "#e2f0ff",
+                "text": "#12314f",
+                "muted": "#5b7a97",
+                "primary": "#1a6fc4",
+                "primary_dark": "#125699",
+                "accent": "#f4b400",
+                "border": "#d5e8fb",
+                "gradient": "linear-gradient(135deg,#1a6fc4,#5ea9e8)",
+                "font": "'Poppins','Segoe UI',sans-serif",
+                "radius": "16px"
+            }
+        ],
+        [
+            "Assumption Red & Gold",
+            "ua-red-gold",
+            {
+                "bg": "#fdf6f6",
+                "surface": "#ffffff",
+                "surface_2": "#fbe9ea",
+                "text": "#3a1218",
+                "muted": "#8b6a6e",
+                "primary": "#b3122b",
+                "primary_dark": "#8a0e21",
+                "accent": "#f2c200",
+                "border": "#f4d6da",
+                "gradient": "linear-gradient(135deg,#b3122b,#d8442f)",
+                "font": "'Montserrat',sans-serif",
+                "radius": "12px"
+            }
+        ],
+        [
+            "Champion Gold",
+            "ua-champion-gold",
+            {
+                "bg": "#fffdf4",
+                "surface": "#ffffff",
+                "surface_2": "#fdf3d9",
+                "text": "#33270a",
+                "muted": "#7d6a3d",
+                "primary": "#8a6508",
+                "primary_dark": "#6b4e06",
+                "accent": "#14357e",
+                "border": "#f0e2ba",
+                "gradient": "linear-gradient(135deg,#a67c08,#d9a406)",
+                "font": "'Lora',Georgia,serif",
+                "radius": "12px"
+            }
+        ]
+    ],
+    "guide": {
+        "about": {
+            "title": "What this system is about",
+            "lead": "The UA Student Budget Tracker is a web system for the University of the Assumption that helps students plan their allowance and know where their money goes — and gives the school office the tools to guide them.",
+            "blocks": [
+                {
+                    "h": "The idea",
+                    "p": "Most students run out of allowance before the month ends because spending is never measured against a plan. Here a student sets a budget (daily, weekly, monthly or a custom range), records every peso of income and every expense, and the system continuously compares what they planned with what they actually spent. When spending approaches or passes the limit, both the student and the administrator are told straight away."
+                },
+                {
+                    "h": "Two sides, one database",
+                    "p": "Students see only their own money. Administrators see the school-wide picture: who is spending past their limits, how many registrations are waiting, and the totals of every category. Both sides read the same numbers from the same tables, so a figure on the admin Student Monitor always matches the figure the student sees on their dashboard."
+                },
+                {
+                    "h": "What it is not",
+                    "p": "It is not a payment system and it never touches real money — it is a planning and monitoring tool. Nothing is sent to a bank; a student simply records what they received and what they spent, and the system does the arithmetic, the alerts and the reports."
+                }
+            ],
+            "pillars": [
+                {
+                    "icon": "target",
+                    "t": "Plan",
+                    "d": "Budgets with a period, a scope, an alert threshold and a live “spent vs limit” bar."
+                },
+                {
+                    "icon": "receipt",
+                    "t": "Record",
+                    "d": "Income and expense entries with date, category, payee, notes and an optional receipt photo."
+                },
+                {
+                    "icon": "eye",
+                    "t": "Monitor",
+                    "d": "Automatic on-track \/ near-limit \/ over-budget states, alerts and a discipline score."
+                },
+                {
+                    "icon": "chart",
+                    "t": "Report",
+                    "d": "Filterable ledgers and behaviour insight, printable as A4 documents or exportable as CSV."
+                }
+            ],
+            "flow": [
+                {
+                    "s": "Registration",
+                    "who": "Student",
+                    "d": "The student fills the public registration form (personal details, grade level, student number and photo). The account is created with the status Pending — it cannot sign in yet."
+                },
+                {
+                    "s": "Approval",
+                    "who": "Admin",
+                    "d": "The office opens People → Registrations, reviews the details, then Approves (status Active) or Rejects with a reason."
+                },
+                {
+                    "s": "First-time setup",
+                    "who": "Student",
+                    "d": "On the first sign-in the student is taken to the onboarding screen: choose a budget period and amount, then land on the dashboard."
+                },
+                {
+                    "s": "Daily use",
+                    "who": "Student",
+                    "d": "Add income and expenses as they happen. Budgets recalculate instantly; the dashboard shows today, this week and this month alongside the remaining balance."
+                },
+                {
+                    "s": "Guidance",
+                    "who": "Both",
+                    "d": "Alerts appear on the student dashboard, budgets list and expense page the moment a threshold is reached — and the same students appear first on the admin Student Monitor, worst first."
+                },
+                {
+                    "s": "Review",
+                    "who": "Both",
+                    "d": "Students print or export personal reports; the office uses the Financial Report and Student Monitor for totals, per-student drill-downs and printable copies."
+                }
+            ]
+        },
+        "menus": {
+            "admin": {
+                "label": "Admin menu",
+                "note": "Everything the school office uses. Sign in with an administrator account — students never see these pages.",
+                "items": [
+                    {
+                        "group": "Overview",
+                        "label": "Dashboard",
+                        "url": "admin\/index.php",
+                        "icon": "grid",
+                        "what": "The landing screen after an admin signs in: how many students are registered, how many registrations are still waiting for approval, and how much money the whole school has recorded.",
+                        "steps": [
+                            "Read the stat cards first: students, pending registrations, categories and total records give you the size of the database at a glance.",
+                            "Work the approval queue before anything else — a student whose registration is still Pending cannot sign in at all.",
+                            "Use the quick links to jump into Student Monitor (who is overspending) or the Financial Report (school-wide totals).",
+                            "The activity panel lists the most recent sign-ins and record changes, so you can tell what happened while you were away."
+                        ],
+                        "terms": [
+                            "Approval queue",
+                            "Audit log",
+                            "Pending registration"
+                        ]
+                    },
+                    {
+                        "group": "Landing Page",
+                        "label": "Page Studio",
+                        "url": "admin\/landing.php",
+                        "icon": "palette",
+                        "what": "The design studio for the public landing page — the first thing a visitor or applicant sees. It has three tabs: Hero, Hero entities and Sections & entities.",
+                        "steps": [
+                            "Hero tab — choose the layout (text only, text left + image right, or image left + text right), upload the hero image and the background image, then tune the background gradient, its transparency and the dark overlay behind the text.",
+                            "Still in Hero: use the image size slider, the shadow control, the six animation styles and the position controls to place the text and the image exactly where you want them against the picture.",
+                            "Hero entities tab — edit every separate piece of the hero (kicker, title, subtitle, the three buttons) including its own font colour, background, border and per-entity animation.",
+                            "Sections & entities tab — turn whole sections on or off and edit each section’s wording, heading colour, card colour, buttons and alignment. Events, galleries, videos, advertisements, the location map and the register band can each be tuned separately.",
+                            "Everything saves immediately and is live — open the landing page in another tab and refresh to check your work."
+                        ],
+                        "terms": [
+                            "Hero",
+                            "Hero entity",
+                            "Section",
+                            "Gradient",
+                            "Transparency",
+                            "Overlay",
+                            "Media scale",
+                            "Animation style",
+                            "Theme default"
+                        ]
+                    },
+                    {
+                        "group": "Landing Page",
+                        "label": "About Page",
+                        "url": "admin\/about.php",
+                        "icon": "book",
+                        "what": "The editor for the public About page — the page that explains the system to visitors, parents and new students.",
+                        "steps": [
+                            "Write the page title, the small label above it, the one-liner and the full description (an empty line starts a new paragraph).",
+                            "Upload the About image (or keep the artwork that ships with the system) and write its caption.",
+                            "Edit the four pillars, the three audience cards and the key-word list; empty rows are dropped when you save.",
+                            "Use the checkboxes to show or hide the diagram, the live figures and the closing register band.",
+                            "Hide from visitors \/ Publish to visitors switches the whole page (and every About link) on or off; Reset to defaults brings the shipped text back."
+                        ],
+                        "terms": [
+                            "Hero",
+                            "Section",
+                            "Upload",
+                            "Publish \/ Hide"
+                        ]
+                    },
+                    {
+                        "group": "Landing Page",
+                        "label": "Events",
+                        "url": "admin\/events.php",
+                        "icon": "calendar",
+                        "what": "Upcoming activities shown on the landing page and in the student dashboard: title, date, time, cover image, description and venue pin.",
+                        "steps": [
+                            "Click “Add event”, type the title and date (time and description are optional).",
+                            "Upload a cover image and pick its animation and card style — this is the picture that animates as visitors scroll to the section.",
+                            "Pin the venue on the map if the event has a physical location; the landing page can then show it with the other map points.",
+                            "Set Visibility to Published for live events, or Hidden to prepare an event without showing it yet."
+                        ],
+                        "terms": [
+                            "Cover image",
+                            "Card style",
+                            "Visibility status",
+                            "Pin"
+                        ]
+                    },
+                    {
+                        "group": "Landing Page",
+                        "label": "Galleries",
+                        "url": "admin\/galleries.php",
+                        "icon": "image",
+                        "what": "Photo albums for the landing page. A gallery is the album; the pictures inside it are managed on its own image page.",
+                        "steps": [
+                            "Create the gallery (title, description, cover, visibility), save, then open Manage images.",
+                            "Add each photo — the first picture or the cover becomes the tile shown in the section grid.",
+                            "Reorder or delete pictures inside the gallery; deleting the gallery removes its photos from the server too.",
+                            "Use galleries for campus life, budgeting workshops, student activities — anything you can photograph."
+                        ],
+                        "terms": [
+                            "Cover image",
+                            "Visibility status"
+                        ]
+                    },
+                    {
+                        "group": "Landing Page",
+                        "label": "Videos",
+                        "url": "admin\/videos.php",
+                        "icon": "video",
+                        "what": "Embedded videos (YouTube links or an uploaded poster) for the “Watch” section of the landing page.",
+                        "steps": [
+                            "Add a video record: title, the YouTube link or embed code, and a thumbnail\/poster image.",
+                            "Keep titles short — they are used as the caption under the player card.",
+                            "Set visibility to Published when the video is ready to show."
+                        ],
+                        "terms": [
+                            "Visibility status",
+                            "Cover image"
+                        ]
+                    },
+                    {
+                        "group": "Landing Page",
+                        "label": "Advertisements",
+                        "url": "admin\/advertisements.php",
+                        "icon": "mega",
+                        "what": "Announcement banners for the landing page — enrolment reminders, scholarship drives, office memoranda.",
+                        "steps": [
+                            "Create the advertisement with a title, short description, image and an optional link button.",
+                            "Choose the placement\/position so the banner appears where it will be noticed.",
+                            "Publish it while the announcement is current, then hide or delete it afterwards so the section never looks stale."
+                        ],
+                        "terms": [
+                            "Visibility status",
+                            "CTA button"
+                        ]
+                    },
+                    {
+                        "group": "Landing Page",
+                        "label": "Map & Location",
+                        "url": "admin\/map.php",
+                        "icon": "map",
+                        "what": "The school’s location block on the landing page: address text, a draggable pin, and a live distance read-out for the visitor.",
+                        "steps": [
+                            "Type the address for the caption, then drag the pin (or type latitude\/longitude) to the exact gate or building.",
+                            "Save, then open the landing page and press “Distance from me” to test — the badge shows the walking and driving estimate from the visitor’s position.",
+                            "Reset clears the measured distance and returns the map to the school view."
+                        ],
+                        "terms": [
+                            "Pin",
+                            "Distance check",
+                            "Reset"
+                        ]
+                    },
+                    {
+                        "group": "Finance",
+                        "label": "Categories",
+                        "url": "admin\/categories.php",
+                        "icon": "tag",
+                        "what": "The shared vocabulary of money in the system. Every income and expense entry, and every budget, belongs to a category — this is where those categories are created.",
+                        "steps": [
+                            "Add a category and set its Type: Income (allowance, salary, gift) or Expense (food, transport, internet…).",
+                            "Keep the list short and obvious — students choose from it every time they record money, and budgets are often scoped to one category.",
+                            "Before deleting a category, look at its “Used in records” column. Deleting removes the label; the past entries keep their amounts but lose their category name, so renaming is almost always better."
+                        ],
+                        "terms": [
+                            "Category",
+                            "Income",
+                            "Expense",
+                            "Scope"
+                        ]
+                    },
+                    {
+                        "group": "Finance",
+                        "label": "Financial Report",
+                        "url": "admin\/reports.php",
+                        "icon": "chart",
+                        "what": "One ledger of everything that happened in the school — every student’s income and expenses in a single filterable table.",
+                        "steps": [
+                            "Filter by student, by type (income or expense), by category, by keyword, or by date range (From \/ To).",
+                            "Watch the totals row — it summarises exactly the rows the filter is showing.",
+                            "Press Print preview for an A4 document with the school header, the filter summary and page numbers; press CSV to open the same data in Excel.",
+                            "Use this page for month-end summaries and for questions like “how much did the whole school spend on food in September?”."
+                        ],
+                        "terms": [
+                            "Ledger",
+                            "Print preview (A4)",
+                            "CSV export"
+                        ]
+                    },
+                    {
+                        "group": "People",
+                        "label": "Registrations",
+                        "url": "admin\/registrations.php",
+                        "icon": "clock",
+                        "what": "The approval queue. Every student who registers from the public form lands here with the status Pending until an administrator acts.",
+                        "steps": [
+                            "Open a request and read the submitted details — name, student number, grade level, course, section, contact number and the uploaded photo.",
+                            "Approve to switch the account to Active. The student can now sign in and will be taken through the one-time budget setup.",
+                            "Reject if the details are wrong or the person is not a student; the reason you type is stored on the account and the student is told to contact the office.",
+                            "Records you have already processed stay visible with the approver and the time, so the queue doubles as an approval log."
+                        ],
+                        "terms": [
+                            "Pending registration",
+                            "Approval queue",
+                            "Approve",
+                            "Reject",
+                            "Rejection reason",
+                            "Onboarding"
+                        ]
+                    },
+                    {
+                        "group": "People",
+                        "label": "User Accounts",
+                        "url": "admin\/users.php",
+                        "icon": "users",
+                        "what": "The full list of accounts — students and administrators — with their status, role, 2FA state and personal details.",
+                        "steps": [
+                            "Create an account directly when you need one without the public form (set the role to Administrator or Student).",
+                            "Edit any record: name, email, student details, role, and status (Active, Pending, Disabled, Rejected). A Disabled account cannot sign in.",
+                            "Reset a password from the form, or upload a profile photo on the student’s behalf.",
+                            "The 2FA column shows who has two-factor authentication switched on — useful before you decide to force it for administrators.",
+                            "Deleting a user also deletes that user’s budgets, income and expense records; prefer Disabled if the history still matters."
+                        ],
+                        "terms": [
+                            "Role",
+                            "Account status",
+                            "Two-factor authentication",
+                            "Password reset"
+                        ]
+                    },
+                    {
+                        "group": "People",
+                        "label": "Student Monitor",
+                        "url": "admin\/monitor.php",
+                        "icon": "eye",
+                        "what": "The supervision screen: every student’s live budget position in one table, worst first, so the students who need help rise to the top.",
+                        "steps": [
+                            "Read the columns — planned budget, live spending, remaining amount, percentage used, alert state and the discipline score.",
+                            "Filter by state (over budget, near limit, on track, no budget) or by period type to focus on a group.",
+                            "Click a student to open their drill-down: each budget with its current window, spending habits, weekly rhythm, projections and every alert.",
+                            "Print or export the filtered view for a student-affairs meeting; the figures are identical to what the student sees."
+                        ],
+                        "terms": [
+                            "Live window",
+                            "Discipline score",
+                            "Projection",
+                            "On track",
+                            "Near limit",
+                            "Over budget"
+                        ]
+                    },
+                    {
+                        "group": "System",
+                        "label": "Company Settings",
+                        "url": "admin\/settings.php",
+                        "icon": "settings",
+                        "what": "The identity and rules of the whole installation — branding, localisation, landing-page switches and security policy.",
+                        "steps": [
+                            "Branding: upload the logo and favicon. The logo appears in the menu, on every printed document, on the landing page and in the browser tab.",
+                            "Details: site name, company name, address, email, phone, website and footer note.",
+                            "Localisation: timezone, country, currency symbol, currency code and position (before\/after the amount) and the date format. These change how every amount and date in the system is written.",
+                            "Landing sections: switch the events, galleries, videos, advertisements and map blocks on or off without deleting their content.",
+                            "Security: “Require 2FA for administrators” forces every administrator to set up two-factor authentication at their next sign-in; the upload limit caps image sizes.",
+                            "Images not showing? (in the Logo & favicon tab) is the self-test for uploads: it writes a probe image into uploads\/, fetches it back over HTTP, compares it with an application file, checks the base path and lists stored images whose files are missing — then offers the one-click repairs (upload folders, uploads guard, base path)."
+                        ],
+                        "terms": [
+                            "Setting",
+                            "Logo\/Favicon",
+                            "Force 2FA for administrators",
+                            "Image delivery check",
+                            "Base path",
+                            "Upload guard (uploads\/.htaccess)"
+                        ]
+                    },
+                    {
+                        "group": "System",
+                        "label": "Theme Studio",
+                        "url": "admin\/themes.php",
+                        "icon": "palette",
+                        "what": "Colours, type and chrome for the whole application — the admin pages, the student pages and the landing page all read from the active theme.",
+                        "steps": [
+                            "Pick a palette and press Activate. The change is instant everywhere, including the student dashboard.",
+                            "The four University of the Assumption palettes (UA Navy & Gold, UA Sky & Sun, Assumption Red & Gold, Champion Gold) were matched to the school seal and banner; they sit alongside the ten original themes.",
+                            "Header colours and Footer colours cards let you recolour those two bars element by element — background, text, links, accents and borders. Tick *Default* on any row to fall back to the theme’s own colour.",
+                            "If the list ever shows fewer themes than expected — for example after copying files from another machine — press “Re-add UA themes”, or simply open Theme Studio: missing palette themes are restored automatically.",
+                            "Font family, font size and corner radius travel with the theme, and any per-element colour you had chosen is preserved when you switch themes."
+                        ],
+                        "terms": [
+                            "Theme",
+                            "Palette theme",
+                            "Active theme",
+                            "Chrome colours",
+                            "Theme default"
+                        ]
+                    },
+                    {
+                        "group": "System",
+                        "label": "Database",
+                        "url": "admin\/database.php",
+                        "icon": "database",
+                        "what": "Backups, restore, maintenance and this hosting account’s own health report for the database that holds every account, budget and transaction.",
+                        "steps": [
+                            "System check (top of the page) reports what this hosting account provides — PHP version, PDO MySQL, writable folders, mail, shell, cron, upload limits and image checks — and lists anything that needs fixing. Green means the feature works; a cross means it is missing or switched off.",
+                            "Backup now creates a dated .sql copy and stores it in the backups folder — download it to keep a copy off the server.",
+                            "Automatic backups: set the interval (every 6, 12, 24, 48 hours, weekly or monthly) and how many to keep; the oldest are pruned automatically. The cron key turns a URL into a secure trigger you can point a scheduler at.",
+                            "On free hosting there is no cron at all, so “Backups on admin page loads” (ON by default) takes over: the first administrator page load after the interval creates the missed backup. An external scheduler such as cron-job.org calling the cron URL does the same job more precisely.",
+                            "Restore replaces the live database with a chosen backup file — take a fresh backup first, because the current state is overwritten.",
+                            "Sample content loads demo events, galleries, videos, an advertisement and a demo student, which is handy on a fresh install and should be removed before going live.",
+                            "Reset tables empties the tables you tick (settings, themes and the migration history are always kept). Only use it on a test copy."
+                        ],
+                        "terms": [
+                            "Backup",
+                            "Restore",
+                            "Scheduled backup",
+                            "Cron key",
+                            "System check",
+                            "Hosting account",
+                            "Free hosting (InfinityFree)",
+                            ".htaccess"
+                        ]
+                    },
+                    {
+                        "group": "System",
+                        "label": "Migrations",
+                        "url": "migration.php",
+                        "icon": "refresh",
+                        "what": "The update mechanism. When the system is upgraded, new numbered SQL files appear in the \/migrations folder; this page applies the ones this installation has not run yet.",
+                        "steps": [
+                            "After copying updated files onto your server, open System → Migrations and read the list.",
+                            "Press Apply \/ Run to execute the pending files. Each file runs once and is then recorded in the schema_migrations table.",
+                            "Already-applied files are skipped, so it is safe to press the button again — it will simply report the number applied, skipped and any errors.",
+                            "The installer runs every migration automatically on a fresh installation, and you can press the button as often as you like — nothing is ever run twice.",
+                            "No terminal is needed and none is used: migrations run inside PHP, so this page works on free hosting where SSH is not available."
+                        ],
+                        "terms": [
+                            "Migration",
+                            "Schema migrations"
+                        ]
+                    },
+                    {
+                        "group": "System",
+                        "label": "Flowchart",
+                        "url": "admin\/flowchart.php",
+                        "icon": "git-branch",
+                        "what": "Professional visual workflows for the student journey and the administrator’s complete operating routine.",
+                        "steps": [
+                            "Open System → Flowchart. The student diagram starts at registration and follows validation, approval, sign-in, first budget setup, daily tracking, reports and sign-out.",
+                            "The administrator diagram covers secure sign-in, registration decisions, People, Finance, all Landing Page menus and System maintenance. Branches identify decisions and repeat tasks; menu groups are choices, not a mandatory sequence.",
+                            "Use the zoom slider and horizontal scrolling to read each diagram. Reset view restores the default scale; the step-by-step text under each diagram provides an accessible alternative.",
+                            "Print both flowcharts creates a two-page A4 preview. Print on an individual workflow creates a one-page preview. Use Print \/ Save as PDF or Close preview. SVG downloads provide scalable diagrams for presentations."
+                        ],
+                        "terms": [
+                            "Print preview (A4)",
+                            "Approval queue",
+                            "Budget",
+                            "Backup"
+                        ]
+                    },
+                    {
+                        "group": "System",
+                        "label": "How To",
+                        "url": "admin\/howto.php",
+                        "icon": "book",
+                        "what": "This guide. It explains the purpose of the system, walks through every menu on the admin and student sides, and defines the wording used throughout.",
+                        "steps": [
+                            "Scroll the menu guide, or type a word — the search box filters the walkthrough and the glossary at the same time.",
+                            "Click any key word under a menu to jump straight to its definition in the glossary.",
+                            "Press Print this guide for an A4 copy of the whole document to hand to staff or students."
+                        ],
+                        "terms": [
+                            "Print preview (A4)",
+                            "Glossary"
+                        ]
+                    }
+                ]
+            },
+            "student": {
+                "label": "Student menu",
+                "note": "What each student sees after signing in. Administrators see the same pages when they open a student’s drill-down, so you can always reproduce what a student is looking at.",
+                "items": [
+                    {
+                        "group": "Overview",
+                        "label": "Dashboard",
+                        "url": "user\/dashboard.php",
+                        "icon": "grid",
+                        "what": "The student’s home screen: money in, money out, how much is left and whether they are still inside their budgets.",
+                        "steps": [
+                            "The top cards show the running balance (all income minus all expenses), plus spend for today, this week and this month.",
+                            "Below that, each live budget gets a progress bar, the window it covers and its state — On track, Near limit or Over budget.",
+                            "Alert banners appear above the content the moment a threshold is reached, and link straight to the budgets list.",
+                            "Recent transactions and upcoming events close the page, so the student sees both their money and their school life in one view."
+                        ],
+                        "terms": [
+                            "Balance",
+                            "Live window",
+                            "Alert threshold",
+                            "On track",
+                            "Near limit",
+                            "Over budget"
+                        ]
+                    },
+                    {
+                        "group": "My Finances",
+                        "label": "Income",
+                        "url": "user\/incomes.php",
+                        "icon": "wallet",
+                        "what": "Every peso received: allowance, salary from a part-time job, gifts, scholarships.",
+                        "steps": [
+                            "Click Add income, choose the source and category, type the amount and the date, and save.",
+                            "Income immediately raises the balance and the remaining money on the dashboard.",
+                            "Search, filter by category or date, then print or export the list when a parent or the office asks for it."
+                        ],
+                        "terms": [
+                            "Income",
+                            "Category",
+                            "Ledger",
+                            "CSV export"
+                        ]
+                    },
+                    {
+                        "group": "My Finances",
+                        "label": "Expenses",
+                        "url": "user\/expenses.php",
+                        "icon": "receipt",
+                        "what": "Every peso spent, with the details that make the record useful later: category, payee, description and an optional photo of the receipt.",
+                        "steps": [
+                            "Click Add expense and fill the form — amount and date are required; category, payee, description and notes make the report readable.",
+                            "Attach a photo of the receipt if you want proof on file; the image is stored with the entry.",
+                            "Save and watch the budget bars move. If this entry pushes a budget past its threshold, the warning appears at once on the same screen.",
+                            "Edit or delete a wrong entry — budgets recalculate immediately and the balance corrects itself."
+                        ],
+                        "terms": [
+                            "Expense",
+                            "Receipt",
+                            "Payee",
+                            "Alert threshold"
+                        ]
+                    },
+                    {
+                        "group": "My Finances",
+                        "label": "Budgets",
+                        "url": "user\/budgets.php",
+                        "icon": "target",
+                        "what": "The plan. A budget is a limit for a period; the system measures spending inside that period against the limit, continuously.",
+                        "steps": [
+                            "New budget → pick the amount, then the period: Daily, Weekly, Monthly or a Custom range.",
+                            "For a Weekly budget choose when the week starts: Today (a repeating 7-day cycle that begins the day you set it up), Monday, or any other weekday. The card shows the exact dates before you save.",
+                            "Choose the scope — all categories (an overall allowance) or one category (for example, food only).",
+                            "Keep “Warn me when spending reaches the threshold” ticked and set the percentage (80% is a good start). Passing 100% always warns, whatever the threshold says.",
+                            "The list shows each budget’s current window, what has been spent, the percentage used and what is left. Edit or delete any budget; a category can only have one budget per period type."
+                        ],
+                        "terms": [
+                            "Budget",
+                            "Period type",
+                            "Week start",
+                            "Anchor day",
+                            "Scope",
+                            "Alert threshold",
+                            "Live window"
+                        ]
+                    },
+                    {
+                        "group": "Analysis",
+                        "label": "My Budget Behaviour",
+                        "url": "user\/behavior.php",
+                        "icon": "eye",
+                        "what": "A personal coaching page that reads the student’s own history: are they pacing well, and where does the money actually go?",
+                        "steps": [
+                            "Start with the discipline score (0–100) — it summarises how comfortably the student is staying inside every live budget.",
+                            "Read the weekly rhythm chart to see which day of the week is heaviest, and the category breakdown to see what drives the spending.",
+                            "Check the projections: at the current pace, what will the month or week end at?",
+                            "Act on the insight list — the page writes the next step in plain language (trim a category, raise a budget, watch a particular weekday)."
+                        ],
+                        "terms": [
+                            "Discipline score",
+                            "Weekly rhythm",
+                            "Projection",
+                            "Pace"
+                        ]
+                    },
+                    {
+                        "group": "Analysis",
+                        "label": "My Reports",
+                        "url": "user\/reports.php",
+                        "icon": "chart",
+                        "what": "The student’s own financial statement: every income and expense in one ledger, with totals.",
+                        "steps": [
+                            "Choose a date range (or a category) and the table and totals update instantly.",
+                            "Press Print preview for a clean A4 statement with the school header — useful for parents or a budgeting requirement.",
+                            "Press CSV to open the same rows in Excel for a project or a presentation."
+                        ],
+                        "terms": [
+                            "Ledger",
+                            "Print preview (A4)",
+                            "CSV export"
+                        ]
+                    },
+                    {
+                        "group": "Account",
+                        "label": "Profile & Security",
+                        "url": "user\/profile.php",
+                        "icon": "shield",
+                        "what": "Personal details and the security of the account itself.",
+                        "steps": [
+                            "Update the profile: name, contact number, birth date, gender, address and the personal photo used as the avatar.",
+                            "Change the password from the same page — the current password is required.",
+                            "Two-factor authentication: press Enable, scan the QR code with an authenticator app (or type the grouped key by hand), then confirm the 6-digit code the app shows.",
+                            "Once 2FA is on, every sign-in asks for the password and then a fresh 6-digit code. Turning it off again also requires a current code.",
+                            "If an administrator has required 2FA, a banner on this page reminds the student to finish the setup."
+                        ],
+                        "terms": [
+                            "Two-factor authentication",
+                            "One-time code (OTP)",
+                            "QR code",
+                            "Setup key",
+                            "Replay protection"
+                        ]
+                    },
+                    {
+                        "group": "First sign-in",
+                        "label": "Budget setup (onboarding)",
+                        "url": "user\/onboarding.php",
+                        "icon": "route",
+                        "what": "A one-time wizard an approved student sees on their very first sign-in, before the dashboard.",
+                        "steps": [
+                            "Step 1 — choose the budget period (daily, weekly, monthly or custom); pick the week start if you chose weekly.",
+                            "Step 2 — enter the amount, decide whether it covers all spending or one category, and set the alert threshold.",
+                            "Save, and the student lands on the dashboard with their first budget already live. It can be skipped and set up later under My Finances → Budgets."
+                        ],
+                        "terms": [
+                            "Onboarding",
+                            "Budget",
+                            "Period type",
+                            "Alert threshold"
+                        ]
+                    }
+                ]
+            },
+            "public": {
+                "label": "Public pages (no sign-in)",
+                "note": "What anyone can reach from the internet before they have an account.",
+                "items": [
+                    {
+                        "group": "Visitor",
+                        "label": "Landing page",
+                        "url": "index.php",
+                        "icon": "globe",
+                        "what": "The public face of the system: hero, events, photo galleries, videos, announcements, the school location with a distance estimate, and the invitation to register.",
+                        "steps": [
+                            "Everything here is edited from Admin → Landing Page (Page Studio plus the events, galleries, videos, advertisements and map pages).",
+                            "The section buttons lead to the registration form or to the sign-in screen.",
+                            "Visitors can measure how far they are from the campus — the map badge shows an approximate walking and driving time."
+                        ],
+                        "terms": [
+                            "Hero",
+                            "Section",
+                            "Distance check"
+                        ]
+                    },
+                    {
+                        "group": "Visitor",
+                        "label": "About page",
+                        "url": "about.php",
+                        "icon": "book",
+                        "what": "The public explanation of the system: the headline and description, the four-step loop, the core-logic diagram, who it is for, the key words, and live figures from this installation.",
+                        "steps": [
+                            "Visitors reach it from the menu on the landing page (About), the footer, and the sign-in screen.",
+                            "Everything on it is edited in Admin → Landing Page → About Page, including the image.",
+                            "It is switched off with a single click there — the page disappears and the links go with it.",
+                            "Administrators can always preview it, even while it is hidden."
+                        ],
+                        "terms": [
+                            "Section",
+                            "Upload",
+                            "Publish \/ Hide"
+                        ]
+                    },
+                    {
+                        "group": "Visitor",
+                        "label": "Register",
+                        "url": "register.php",
+                        "icon": "user",
+                        "what": "The whole-page registration form a new student fills in: personal details, grade level, student number, contact information and a personal photo.",
+                        "steps": [
+                            "The student completes the form and submits it — the account is created with the status Pending.",
+                            "Nothing is usable yet: signing in before approval is refused with a message saying the registration is still waiting for the administrator.",
+                            "The office approves it under People → Registrations, and only then does the first sign-in work."
+                        ],
+                        "terms": [
+                            "Pending registration",
+                            "Approve",
+                            "Reject",
+                            "Student number",
+                            "Grade level"
+                        ]
+                    },
+                    {
+                        "group": "Visitor",
+                        "label": "Sign in",
+                        "url": "login.php",
+                        "icon": "lock",
+                        "what": "The door. Email and password, plus a second step when two-factor authentication is enabled.",
+                        "steps": [
+                            "Enter the email address and password. Wrong credentials show a generic error — the system never says whether the email or the password was wrong.",
+                            "If the account has 2FA, the screen changes to “Two-factor check” and asks for the 6-digit code from the authenticator app. The code step stays valid for five minutes; the “Start over” link abandons the half-finished sign-in.",
+                            "Codes are single-use inside their 30-second window, and one step of clock drift either side is tolerated, so a slightly slow phone still works.",
+                            "Pending or rejected accounts are told their registration is not yet approved; disabled accounts are told to contact the administrator."
+                        ],
+                        "terms": [
+                            "Two-factor authentication",
+                            "One-time code (OTP)",
+                            "Clock drift",
+                            "Pending 2FA session"
+                        ]
+                    }
+                ]
+            }
+        },
+        "glossary": {
+            "Money and budgeting": {
+                "Budget": "A limit for a period — the amount a student plans to spend, for example ₱3,000 for this month or ₱500 for this week. The system continuously compares spending inside the period against this amount.",
+                "Planned": "The sum of all live budget amounts, i.e. what the student intends to spend across their budgets in the current windows.",
+                "Spent": "What has actually been recorded as expenses inside the budget’s current window. Not an estimate — it comes from the expense entries.",
+                "Remaining": "Planned minus spent. When it turns negative the budget is over and the figure is shown in red.",
+                "Balance": "All income minus all expenses, regardless of budgets or periods. It answers “how much money do I have left overall?”",
+                "Income": "Money received: allowance, salary, gift, scholarship. Recorded with a source, a category, an amount and a date.",
+                "Expense": "Money spent: a single purchase or payment, recorded with an amount, a date, a category, an optional payee\/description and an optional receipt photo.",
+                "Category": "The label that groups money — Food & Drinks, Transportation, Internet & Mobile, Allowance. Categories are shared: the office creates them, students pick from them.",
+                "Scope": "What a budget covers. “All categories” is an overall allowance; a single category creates a budget for that kind of spending only.",
+                "Alert threshold": "The percentage of a budget at which a warning appears (80% by default). Passing 100% always warns, whether or not the threshold is switched on.",
+                "Payee": "Who or where the money went — Puregold, Globe, UA Dormitory. Makes the printed report readable.",
+                "Receipt": "A photo of the proof of purchase, stored with the expense entry.",
+                "Ledger": "The combined list of income and expenses in date order. Students see their own; administrators see the whole school under Financial Report.",
+                "Discipline score": "A 0–100 indicator of how well a student is staying inside their own budgets. 100 means every live budget is comfortably on track; the number falls as budgets approach or pass their limits."
+            },
+            "Budget periods and windows": {
+                "Period type": "How long a budget lasts before it repeats: Daily, Weekly, Monthly, or Custom range (fixed start and end dates that do not repeat).",
+                "Daily budget": "Resets every midnight; it measures today only.",
+                "Weekly budget": "A seven-day limit that repeats each week, starting on the day the student chose.",
+                "Monthly budget": "Resets on the 1st of every month and measures the whole calendar month.",
+                "Custom range": "A one-off window with a start and an end date — no automatic rollover. Useful for a school trip or a specific event.",
+                "Week start": "The day a weekly budget begins: Today (the day the budget was created) or any weekday from Monday to Sunday. Editable later from Edit budget → Week starts on.",
+                "Anchor day": "The date a weekly budget was created. It fixes the repeating 7-day cycle — a budget created on Friday 16 October measures Fri 16–Thu 22, then Fri 23–Thu 29, and so on.",
+                "Live window": "The dates a repeating budget is measuring right now. It appears next to every budget row (for example Oct 16 → Oct 22) and rolls over on its own.",
+                "“This week (Fri–Thu)”": "The span of a weekly budget, shown so nobody has to guess which seven days are being counted.",
+                "Rollover": "The automatic restart of a repeating budget at the end of its window: midnight for daily, the chosen day for weekly, the 1st for monthly.",
+                "Active window badge": "A marker on the budgets list showing that the row’s window covers today, so it is part of the live calculations."
+            },
+            "Budget states and alerts": {
+                "On track": "Spending is below the alert threshold. The progress bar is green.",
+                "Near limit (warn)": "Spending has reached the alert threshold but is still under 100%. The bar turns amber and a warning banner appears.",
+                "Over budget": "Spending has reached or passed the budget amount. The bar turns red, the remaining figure goes negative and the alert is always shown.",
+                "% used": "Spent ÷ budget × 100. It is what the progress bar and the alert thresholds are measured against.",
+                "Alert banner": "The coloured message shown on the dashboard, budgets list and expense page when a budget needs attention, linking to the budgets page.",
+                "Pace": "How fast spending is moving through the period (for example, 40% of the budget used and 30% of the month gone). The behaviour page converts this into plain-language advice.",
+                "Projection": "An estimate of where spending will end up if the current pace continues — “at this rate you will finish the month at ₱4,200”.",
+                "Weekly rhythm": "The spending pattern by weekday, which usually reveals the expensive days (weekends, allowance day, and so on)."
+            },
+            "Accounts and access": {
+                "Role": "What an account may do. Student: only their own money. Administrator: every account, the landing page, the reports and the system settings.",
+                "Account status": "Active (can sign in), Pending approval (waiting for the office), Disabled (blocked, usually temporary) or Rejected (registration refused).",
+                "Pending registration": "A student who completed the public form but has not been approved yet. They cannot sign in until an administrator acts.",
+                "Approval queue": "The list of pending registrations in People → Registrations, with the details submitted and the Approve \/ Reject buttons.",
+                "Approve": "Switch a pending account to Active, record who did it and when, and allow the student to sign in.",
+                "Reject": "Refuse a registration, storing the reason on the account. The student is told to contact the office rather than being left guessing.",
+                "Rejection reason": "The short note an administrator types when rejecting — the official explanation of the decision.",
+                "Student number": "The school-issued identifier a student enters at registration. It must be unique, so two accounts can never share one.",
+                "Grade level": "The year the student is in (Grade 7–12, 1st–5th Year College, Graduate Studies). Used for grouping and reporting in the office.",
+                "Course \/ Section": "The programme and class group the student belongs to, captured at registration and shown in the approval queue.",
+                "Onboarding": "The one-time budget setup a newly approved student completes on their first sign-in.",
+                "Password reset": "Changing a password from User Accounts (admin) or from Profile & Security (student). Stored securely as a hash — nobody, including the office, can read the original password.",
+                "Session": "The signed-in state kept by the browser. It is regenerated at sign-in to prevent hijacking, and cleared by signing out.",
+                "CSRF token": "A hidden one-time value in every form that proves the submission came from the real page — it stops another website from silently posting on a user’s behalf."
+            },
+            "Security and two-factor authentication": {
+                "Two-factor authentication (2FA)": "An extra security step at sign-in: the password (something you know) plus a rotating code from your phone (something you have).",
+                "TOTP": "Time-based One-Time Password — the industry standard behind the 6-digit codes in Google Authenticator, Microsoft Authenticator, Authy, 1Password and similar apps.",
+                "Authenticator app": "The phone app that holds the secret key and generates a new 6-digit code every 30 seconds. Nothing is sent by SMS.",
+                "One-time code (OTP)": "The 6 digits shown in the authenticator app. They expire after 30 seconds, so the app is always open when signing in.",
+                "Setup key": "The long key (shown in groups of four characters) that represents the account inside the authenticator app. Typing it by hand gives the same result as scanning the QR code — always keep it private.",
+                "QR code": "The square barcode that carries the setup key, so the app can be configured with one scan.",
+                "Code window (5 minutes)": "Once the password has been accepted, the code screen stays valid for five minutes. If it expires, the sign-in simply starts again from the password.",
+                "Clock drift": "A small difference between the phone’s clock and the server’s. One 30-second step either side is accepted, so a slightly slow or fast phone still signs in.",
+                "Replay protection": "A code that has just been used is refused if it is typed again inside its 30-second window, so an observed code cannot be reused.",
+                "Pending 2FA session": "The half-finished sign-in between the password and the code (the pending_2fa entry). It is discarded automatically if it is not completed, and the “Start over” link abandons it on demand.",
+                "Force 2FA for administrators": "A Company Settings switch that requires every administrator to set up two-factor authentication at their next sign-in."
+            },
+            "Landing page and design": {
+                "Hero": "The full-screen opening block of the landing page: background image, gradient, headline, subtitle and buttons.",
+                "Hero entity": "One individually editable piece inside the hero (kicker, title, subtitle, each button). Colours, size, shadow, animation and position are set per entity.",
+                "Section": "A distinct block of the landing page below the hero: events, galleries, videos, advertisements, location, register band. Each has its own heading, wording, colours and visibility.",
+                "CTA button": "The “call to action” button — “Register now”, “Open my dashboard”, “Find us”. Each of the hero’s three buttons can be renamed, recoloured, hidden, or pointed at a different link.",
+                "Hero layout": "How the hero is composed: text only, text on the left with the image on the right, or the mirror image. Also called the hero variant.",
+                "Media scale": "The size slider for the hero image (30–130%). It scales the picture without changing the background or the text.",
+                "Shadow": "The soft dark edge under the hero image. Adjustable in depth, strength and colour so the picture separates from the background.",
+                "Gradient": "The colour wash laid over the hero background (for example navy fading into blue) so white text stays readable.",
+                "Transparency": "How strongly the hero background image shows through — 0% hides it behind the colour, 100% shows the photo fully.",
+                "Overlay": "The dim layer behind hero text. Raising it darkens the picture and makes the headline easier to read.",
+                "Animation style": "The entrance\/ambient motion of an image (fade, zoom, float, slide and more), chosen per hero image and per section image.",
+                "Text \/ image position": "Fine placement — moving the hero text block and the hero image left, right, up or down to line up with the background.",
+                "Cover image": "The main picture of an event, gallery, video or advertisement; it is what appears in the card or grid.",
+                "Pin": "A point placed on the landing-page map: the school office marks the venue of an event, a gallery or the office itself, and visitors can click the pin to see the name and the address.",
+                "Distance check": "The “how far am I?” button on the landing-page map. It asks the visitor’s browser for their location, measures the straight-line distance to the company pin and shows it in kilometres — nothing is stored and the visitor can say no.",
+                "Reset": "Putting a control back to its starting state. On the map it clears the measured distance and returns the view to the school; in forms it clears what you typed; in Studio it restores the shipped default instead of your custom colour.",
+                "About page": "The public page that explains the system in words and pictures — what it is, how the loop works, who it is for, and the meaning of the terms used. Edited in Landing Page → About Page.",
+                "Publish \/ Hide": "The switch that decides whether a page, section or record is visible to visitors. Hidden content stays in the admin and is never shown publicly.",
+                "Card style": "The visual treatment of a card in a section (for example plain, elevated or outline).",
+                "Visibility status": "Published shows a record on the landing page; Hidden keeps it in the admin only. It lets you prepare content without revealing it.",
+                "Theme": "A complete colour-and-type package: accent colours, background, font family, font size, corner radius. One theme is active at a time and it drives every page.",
+                "Palette theme": "A theme created to match the school’s identity. The four UA palettes (Navy & Gold, Sky & Sun, Assumption Red & Gold, Champion Gold) were matched to the seal and the banner.",
+                "Active theme": "The theme currently applied to the whole installation, marked on its card in Theme Studio.",
+                "Theme default": "The value a theme would use anyway. Ticking *Default* on a colour row clears the override and returns that element to the theme’s own colour.",
+                "Chrome colours": "The colours of the two structural bars — the top header and the footer. Each element (background, text, links, headings, borders) can be set separately."
+            },
+            "Data and maintenance": {
+                "Setting": "A stored value that configures the installation — site name, logo, currency, timezone, landing switches. Edited in Company Settings.",
+                "Migration": "A numbered SQL file in \/migrations that upgrades the database structure. Each one runs once and is recorded, so updates can be copied onto an existing installation safely.",
+                "Schema migrations": "The table that remembers which migration files have already been applied.",
+                "Sample content": "Demo data (events, galleries, videos, an advertisement and a demo student) that can be loaded so no landing section is empty while you are still building the site.",
+                "Backup": "A dated .sql copy of the entire database. Automatic backups run on the interval set in Database, keeping the last few copies.",
+                "Restore": "Replacing the live database with a chosen backup file — the current state is overwritten, so back up first.",
+                "Cron key": "A secret code in a URL that lets a scheduler run the backup job without an administrator being signed in.",
+                "Scheduled backup": "A backup the system takes on its own. With cron available the cron URL does it; on free hosting the first administrator page load after the interval does it — switchable under Database → “Backups on admin page loads”.",
+                "Glossary": "The dictionary at the end of this guide: every word the system uses, explained in one sentence, grouped by topic. Key words under each menu card jump straight to their definition.",
+                "Reset tables": "Emptying selected tables (test data) while keeping settings, themes and the migration history.",
+                "Audit log": "The internal record of important actions — sign-ins, approvals, record changes — with who did it and when.",
+                "Print preview (A4)": "The professional print layout used by every report: school header, filter summary, page numbering and a toolbar with Print \/ Save as PDF and Close preview.",
+                "CSV export": "Downloading a table as comma-separated values for Excel, Sheets or any other spreadsheet.",
+                "Upload": "A file saved by the system — logo, favicon, hero image, background, gallery photo, receipt or profile picture. Images are resized to keep the site fast.",
+                "Logo \/ Favicon": "The school mark in the menu, printed documents and landing page, and the small icon shown in the browser tab.",
+                "Base path \/ Base URL": "Where the application is installed. It is detected automatically, so the system works in a folder such as \/ua-budget-tracker as well as at the root of a site."
+            },
+            "Hosting and deployment": {
+                "Hosting account": "The service that stores the files and runs PHP for the site. The school’s copy can live on a school server, on cPanel hosting, or on free hosting such as InfinityFree.",
+                "Free hosting (InfinityFree)": "A no-cost host that runs PHP and MySQL but blocks several features. This system is built to work there: it never uses a terminal, never uses cron, never needs mail() and never resizes images on the server.",
+                "System check": "The preflight report shown in the installer and again in System → Database. It inspects PHP version, PDO MySQL, writable folders, mail, shell access, cron, upload limits and the image checks, then explains in plain words what each result means for the system.",
+                "Document root \/ htdocs": "The folder the web server publishes. On InfinityFree it is called htdocs: uploading the project there puts the tracker at the root of the site, or in a sub-folder such as \/ua-budget-tracker.",
+                "Remote database host": "On shared hosting the database runs on its own machine, so the host is something like sql301.infinityfree.com instead of localhost, and the database name and user carry a prefix such as if0_12345678_.",
+                "Database privilege": "What the hosting account is allowed to do. Free plans hand out an existing database, so the account normally cannot CREATE DATABASE — the installer reports that as a harmless notice and connects to the database you were given.",
+                "mail()": "PHP’s built-in way of sending email. Free hosts disable it, so the system never depends on it: when a registration is approved it shows the message to forward, and every other feature works without email.",
+                "Shell \/ SSH": "The command line on a server. Free plans do not provide it, which is why the system does its own backups and migrations in PHP instead of calling tools such as mysqldump.",
+                "Cron job": "A scheduled task a server runs on its own. Free plans have none, so the tracker offers two substitutes: the automatic backup that runs on the next admin page load, and a free external scheduler pointed at the cron URL.",
+                ".htaccess": "The Apache configuration file that sits next to the site files. It is used here to switch directory listings off, block the config, backup and other private files, and add security headers — using only directives that free hosts accept.",
+                "Image delivery check": "The self-test in Company Settings → “Images not showing?”. It writes a tiny image into uploads\/, asks the server for it over HTTP exactly as a browser would, compares the answer with an application file, and lists any stored image whose file is not on the server. The result names the cause — 500 (a refused rule in uploads\/.htaccess), 403 (the host refuses the path), 404 with a base-path mismatch (links point somewhere the files are not) or “files missing” (the uploads folder was not copied completely).",
+                "Broken image": "A picture the browser cannot load, shown as a small broken-page icon with the alternative text. The database keeps only the path, so a missing or unreachable file looks like a design bug even though nothing in the page is wrong. The image delivery check turns it into a concrete cause and a fix.",
+                "Base path": "Where the application sits inside the website, for example an empty string at the root of the site or \/ua-budget-tracker when it lives in a folder. It is detected during installation and stored in config\/config.php; if the files are later moved, every link and every image URL points to the wrong place — which is why the delivery check compares the stored value with the folder this request actually came from and can correct it.",
+                "Upload guard (uploads\/.htaccess)": "The rule file that stops scripts inside the upload folders from ever being executed or served. It is kept deliberately minimal — only <FilesMatch> with Require\/Deny — because a single directive that the host refuses (php_value, php_flag, Options, RemoveHandler) fails the whole folder and makes every uploaded image answer 500. Company Settings can rewrite it safely at any time with “Repair the uploads guard”.",
+                "Reserved folder or file name": "Some free hosts refuse URL paths containing certain words — InfinityFree blocks “chat” and “includes” — and answer 403. Application folders are unaffected (PHP reads them from disk), but a folder served over HTTP must avoid such names.",
+                "Upload limit": "The largest file the host accepts (upload_max_filesize \/ post_max_size). The value allowed inside the system is capped to match the host, so a student never picks a photo that the server will silently refuse.",
+                "Deployment": "Copying the system onto a server: upload the files, give uploads\/ and backups\/ write permission, open install.php, fill in the database details from the hosting panel, finish the wizard, then delete install.php."
+            }
+        }
+    }
+}

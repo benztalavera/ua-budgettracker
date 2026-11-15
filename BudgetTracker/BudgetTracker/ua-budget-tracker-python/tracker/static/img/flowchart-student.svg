@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="fc-student-svg" viewBox="0 0 1100 1700" width="1100" height="1700" role="img" aria-labelledby="student-title student-desc">
+<title id="student-title">Student workflow — registration to daily budgeting</title><desc id="student-desc">Start at registration. Correct invalid details, wait for administrator approval, then sign in and verify an authenticator code if enabled. Set up a first budget or skip for now. Track income, expenses and budgets, review behaviour and reports, manage profile and sign out. Decision branches show retries and repeat visits.</desc>
+<defs><marker id="student-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L8 4 L0 8 Z" fill="#64748b"/></marker></defs>
+<style>#fc-student-svg text{font-family:'Segoe UI',Arial,sans-serif;fill:#172b49}#fc-student-svg .title{font-size:21px;font-weight:700}#fc-student-svg .body{font-size:18px;fill:#42546b}#fc-student-svg .label{font-size:17px;font-weight:700;fill:#52657d;paint-order:stroke;stroke:#fff;stroke-width:7px;stroke-linejoin:round}#fc-student-svg .phase{font-size:17px;font-weight:700;letter-spacing:1.6px;fill:#566b88}</style>
+<rect width="1100" height="1700" fill="#fff" rx="18"/>
+<path d="M32 32 H1068" stroke="#e2e8f0"/><rect x="32" y="15" width="319" height="30" fill="#fff"/><text x="40" y="37" class="phase">01 / REGISTER &amp; GET APPROVED</text>
+<rect x="350" y="62" width="400" height="48" rx="24.0" fill="#ecf8f3" stroke="#9bd2bc" stroke-width="1.7"/>
+<text x="550.0" y="93.0" class="title" text-anchor="middle"><tspan x="550.0" dy="0">Start · open the public website</tspan></text>
+<path d="M550 110 L550 135" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<rect x="300" y="135" width="500" height="100" rx="12" fill="#f0f5ff" stroke="#bfd0ee" stroke-width="1.7"/>
+<text x="550.0" y="167.0" class="title" text-anchor="middle"><tspan x="550.0" dy="0">Register a student account</tspan></text>
+<text x="550.0" y="196.0" class="body" text-anchor="middle"><tspan x="550.0" dy="0">Personal details, student no. &amp; grade / year</tspan><tspan x="550.0" dy="25">Email, password and optional profile photo</tspan></text>
+<path d="M550 235 L550 251" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<path d="M550 251.0 L705.0 300 L550 349.0 L395.0 300 Z" fill="#fff8e8" stroke="#d6b464" stroke-width="1.8"/>
+<text x="550" y="306" class="title" text-anchor="middle"><tspan x="550" dy="0">Details valid?</tspan></text>
+<path d="M395 300 L245 300" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<text x="315" y="287" class="label" text-anchor="middle"><tspan x="315" dy="0">No</tspan></text>
+<rect x="35" y="261" width="210" height="78" rx="12" fill="#fff8e8" stroke="#e5c88b" stroke-width="1.7"/>
+<text x="140.0" y="294.5" class="title" text-anchor="middle"><tspan x="140.0" dy="0">Correct the form</tspan></text>
+<text x="140.0" y="323.5" class="body" text-anchor="middle"><tspan x="140.0" dy="0">Read field errors</tspan></text>
+<path d="M140 261 L140 183 L300 183" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<path d="M550 349 L550 370" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<text x="580" y="368" class="label" text-anchor="middle"><tspan x="580" dy="0">Yes</tspan></text>
+<rect x="350" y="370" width="400" height="70" rx="12" fill="#fff8e8" stroke="#e5c88b" stroke-width="1.7"/>
+<text x="550.0" y="399.5" class="title" text-anchor="middle"><tspan x="550.0" dy="0">Pending administrator review</tspan></text>
+<text x="550.0" y="428.5" class="body" text-anchor="middle"><tspan x="550.0" dy="0">Login is blocked until approved</tspan></text>
+<path d="M550 440 L550 458" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<path d="M550 458.0 L700.0 510 L550 562.0 L400.0 510 Z" fill="#fff8e8" stroke="#d6b464" stroke-width="1.8"/>
+<text x="550" y="516" class="title" text-anchor="middle"><tspan x="550" dy="0">Admin decision?</tspan></text>
+<path d="M700 510 L810 510" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<text x="757" y="496" class="label" text-anchor="middle"><tspan x="757" dy="0">Rejected</tspan></text>
+<rect x="810" y="470" width="255" height="80" rx="12" fill="#fff0f0" stroke="#e8b0b0" stroke-width="1.7"/>
+<text x="937.5" y="504.5" class="title" text-anchor="middle"><tspan x="937.5" dy="0">Contact the office</tspan></text>
+<text x="937.5" y="533.5" class="body" text-anchor="middle"><tspan x="937.5" dy="0">Admin may reconsider</tspan></text>
+<path d="M938 470 L938 405 L750 405" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round" stroke-dasharray="6 5" marker-end="url(#student-arrow)"/>
+<path d="M400 510 L150 510 L150 405 L350 405" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round" stroke-dasharray="6 5" marker-end="url(#student-arrow)"/>
+<text x="238" y="497" class="label" text-anchor="middle"><tspan x="238" dy="0">Pending · wait</tspan></text>
+<path d="M550 562 L550 615" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<text x="608" y="590" class="label" text-anchor="middle"><tspan x="608" dy="0">Approved</tspan></text>
+<path d="M32 591 H1068" stroke="#e2e8f0"/><rect x="32" y="574" width="253" height="30" fill="#fff"/><text x="40" y="596" class="phase">02 / SIGN IN &amp; PREPARE</text>
+<rect x="320" y="615" width="460" height="85" rx="12" fill="#f0f5ff" stroke="#bfd0ee" stroke-width="1.7"/>
+<text x="550.0" y="639.5" class="title" text-anchor="middle"><tspan x="550.0" dy="0">Sign in with email &amp; password</tspan></text>
+<text x="550.0" y="668.5" class="body" text-anchor="middle"><tspan x="550.0" dy="0">If 2FA is enabled, enter a valid OTP</tspan><tspan x="550.0" dy="25">Invalid login / code → correct and retry</tspan></text>
+<path d="M550 700 L550 721" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<path d="M550 721.0 L700.0 770 L550 819.0 L400.0 770 Z" fill="#fff8e8" stroke="#d6b464" stroke-width="1.8"/>
+<text x="550" y="776" class="title" text-anchor="middle"><tspan x="550" dy="0">First visit?</tspan></text>
+<path d="M700 770 L952 770 L952 950 L780 950" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<text x="869" y="756" class="label" text-anchor="middle"><tspan x="869" dy="0">No · returning student</tspan></text>
+<path d="M550 819 L550 839" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<text x="579" y="839" class="label" text-anchor="middle"><tspan x="579" dy="0">Yes</tspan></text>
+<rect x="300" y="839" width="500" height="91" rx="12" fill="#f0f5ff" stroke="#bfd0ee" stroke-width="1.7"/>
+<text x="550.0" y="866.5" class="title" text-anchor="middle"><tspan x="550.0" dy="0">Choose first budget period &amp; amount</tspan></text>
+<text x="550.0" y="895.5" class="body" text-anchor="middle"><tspan x="550.0" dy="0">Daily / weekly / monthly / custom; scope &amp; alerts</tspan><tspan x="550.0" dy="25">Weekly: starts today or a chosen weekday</tspan></text>
+<path d="M550 930 L550 936" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<rect x="320" y="936" width="460" height="52" rx="26.0" fill="#ecf8f3" stroke="#9bd2bc" stroke-width="1.7"/>
+<text x="550.0" y="969.0" class="title" text-anchor="middle"><tspan x="550.0" dy="0">Dashboard · your financial summary</tspan></text>
+<text x="550" y="1014" class="body" text-anchor="middle"><tspan x="550" dy="0">Setup may be skipped; create a budget later in Budgets.</tspan></text>
+<path d="M32 1048 H1068" stroke="#e2e8f0"/><rect x="32" y="1031" width="319" height="30" fill="#fff"/><text x="40" y="1053" class="phase">03 / TRACK, REVIEW &amp; IMPROVE</text>
+<path d="M550 1019 L550 1080" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<path d="M550 1060 L200 1060 L200 1080" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<path d="M550 1060 L900 1060 L900 1080" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<rect x="40" y="1080" width="320" height="106" rx="12" fill="#f0f5ff" stroke="#bfd0ee" stroke-width="1.7"/>
+<text x="200.0" y="1115.0" class="title" text-anchor="middle"><tspan x="200.0" dy="0">Income</tspan></text>
+<text x="200.0" y="1144.0" class="body" text-anchor="middle"><tspan x="200.0" dy="0">Record allowance &amp; other income</tspan><tspan x="200.0" dy="25">Set date, amount and category</tspan></text>
+<rect x="390" y="1080" width="320" height="106" rx="12" fill="#f0f5ff" stroke="#bfd0ee" stroke-width="1.7"/>
+<text x="550.0" y="1115.0" class="title" text-anchor="middle"><tspan x="550.0" dy="0">Expenses</tspan></text>
+<text x="550.0" y="1144.0" class="body" text-anchor="middle"><tspan x="550.0" dy="0">Record spending &amp; category</tspan><tspan x="550.0" dy="25">Add receipt / details as needed</tspan></text>
+<rect x="740" y="1080" width="320" height="106" rx="12" fill="#f0f5ff" stroke="#bfd0ee" stroke-width="1.7"/>
+<text x="900.0" y="1115.0" class="title" text-anchor="middle"><tspan x="900.0" dy="0">Budgets</tspan></text>
+<text x="900.0" y="1144.0" class="body" text-anchor="middle"><tspan x="900.0" dy="0">Set or adjust spending limits</tspan><tspan x="900.0" dy="25">Review balances &amp; alerts</tspan></text>
+<path d="M200 1186 L200 1210 L550 1210 L550 1232" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<path d="M550 1186 L550 1232" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<path d="M900 1186 L900 1210 L550 1210 L550 1232" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<rect x="310" y="1232" width="480" height="76" rx="12" fill="#f0f5ff" stroke="#bfd0ee" stroke-width="1.7"/>
+<text x="550.0" y="1264.5" class="title" text-anchor="middle"><tspan x="550.0" dy="0">Dashboard &amp; My Budget Behaviour</tspan></text>
+<text x="550.0" y="1293.5" class="body" text-anchor="middle"><tspan x="550.0" dy="0">Check spending, trends and budget discipline</tspan></text>
+<path d="M550 1308 L550 1323" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<path d="M550 1323.0 L705.0 1375 L550 1427.0 L395.0 1375 Z" fill="#fff8e8" stroke="#d6b464" stroke-width="1.8"/>
+<text x="550" y="1369" class="title" text-anchor="middle"><tspan x="550" dy="0">Need to adjust</tspan><tspan x="550" dy="25">your plan?</tspan></text>
+<path d="M395 1375 L20 1375 L20 1133 L40 1133" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<text x="210" y="1362" class="label" text-anchor="middle"><tspan x="210" dy="0">Yes · review records &amp; limits</tspan></text>
+<path d="M550 1427 L550 1450" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<text x="695" y="1444" class="label" text-anchor="middle"><tspan x="695" dy="0">No / ready to continue</tspan></text>
+<rect x="240" y="1450" width="620" height="85" rx="12" fill="#f0f5ff" stroke="#bfd0ee" stroke-width="1.7"/>
+<text x="550.0" y="1474.5" class="title" text-anchor="middle"><tspan x="550.0" dy="0">My Reports · Profile &amp; Security</tspan></text>
+<text x="550.0" y="1503.5" class="body" text-anchor="middle"><tspan x="550.0" dy="0">Filter / print / export personal reports; update photo &amp; details</tspan><tspan x="550.0" dy="25">Change password or manage authenticator-based 2FA</tspan></text>
+<path d="M550 1535 L550 1560" fill="none" stroke="#64748b" stroke-width="2" stroke-linejoin="round"  marker-end="url(#student-arrow)"/>
+<rect x="350" y="1560" width="400" height="48" rx="24.0" fill="#ecf8f3" stroke="#9bd2bc" stroke-width="1.7"/>
+<text x="550.0" y="1591.0" class="title" text-anchor="middle"><tspan x="550.0" dy="0">Sign out · end this session</tspan></text>
+<text x="550" y="1649" class="body" text-anchor="middle"><tspan x="550" dy="0">Return to Sign in next time; repeat the daily tracking cycle.</tspan></text>
+</svg>

@@ -1,0 +1,8 @@
+.env
+instance/*
+!.gitkeep
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+print-audit/
